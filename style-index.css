@@ -118,6 +118,8 @@ h1
     border-radius: 60px;
     border: 2px solid white;
     box-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
+    position: relative;
+    cursor: pointer;
 }
 .galeria-imagen
 {
