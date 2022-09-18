@@ -1,7 +1,6 @@
 body
 {
     background: url("imagenes/bg.jpg");
-
 }
 /*header*/
 header
@@ -105,6 +104,28 @@ h1
     text-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
 }
 
+/*Galeria*/
+.Contenedor-Galeria
+{
+    padding: 3em ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-auto-rows: 50%;
+}
+.Contenedor-Galeria picture
+{
+    margin: 10px;
+    border-radius: 60px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
+}
+.galeria-imagen
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+
 /*Ubicacion*/
 .ubicacion h2
 {
@@ -188,5 +209,26 @@ footer
         width: 100%;
         margin: 0;
         
+    }
+    .Contenedor-Galeria picture
+    {
+        margin: 2px;
+        border-radius: 20px;
+        border: 2px solid white;
+        box-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
+    }
+    .galeria-imagen
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .Contenedor-Galeria
+    {
+        padding: 0;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        grid-auto-rows: 50%;
     }
 }
