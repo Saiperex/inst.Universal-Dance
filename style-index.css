@@ -89,12 +89,24 @@ h1
     border: 2px solid white;
     box-shadow: inset 0 0 5px red, 0 0 10px red;
 }
+.diferenciales h2
+{
+    margin: 50px;
+    text-align:left;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Neonderthaw', cursive;
+    text-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
+}
 .diferenciales ul
 {
     margin: auto;
-    text-align: center;
-    text-shadow: 0 0 5px red, 0 0 10px red,0 0 20px red ;
+    text-shadow: 0 0 5px violet, 0 0 10px violet,0 0 20px violet ;
 }
+
+/**/
+
 /*footer*/
 footer
 {
@@ -129,7 +141,7 @@ footer
     {
         font-size: 50px;
     }
-    .descripcion-caja
+    .descripcion-caja, .diferenciales
     {
         display: block;
         padding: 0;
@@ -137,12 +149,12 @@ footer
         margin: 0 auto;
         
     }
-    .descripcion-caja p 
+    .descripcion-caja p,.diferenciales div
     {
         padding: 20px;
         font-size: 20px;
     }
-    .descripcion-caja img
+    .descripcion-caja img, .diferenciales img
     {
         width: 100%;
         margin: 0;
