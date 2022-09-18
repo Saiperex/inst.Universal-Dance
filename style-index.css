@@ -183,6 +183,23 @@ h1
     border: 2px solid white;
     box-shadow:  0 0 5px white, 0 0 10px white;
 }
+
+/*te esperamos*/
+.te-esperamos
+{
+    background-color: black;
+    color: white;
+}
+.te-esperamos div
+{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.te-esperamos video
+{
+    width: 100%;
+}
 /*footer*/
 footer
 {
