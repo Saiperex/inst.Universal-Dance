@@ -131,7 +131,6 @@ h1
 
 .Contenedor-Galeria picture::before
 {
-    content: "Aca va un texto";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -151,7 +150,38 @@ h1
 {
     transform: scale(1) ;
 }
-
+.galeria-img1::before
+{
+    content: "Clases Presenciales";
+}
+.galeria-img2::before
+{
+    content: "Teatros y festivales";
+}
+.galeria-img3::before
+{
+    content: "Egresados";
+}
+.galeria-img4::before
+{
+    content: "Premiaciones";
+}
+.galeria-img5::before
+{
+    content: "Eventos";
+}
+.galeria-img6::before
+{
+    content: "Ganadores de Torneos";
+}
+.galeria-img7::before
+{
+    content: "Todos Juntos";
+}
+.galeria-img8::before
+{
+    content: "Profesionales";
+}
 /*Ubicacion*/
 .ubicacion h2
 {
